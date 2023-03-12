@@ -37,4 +37,3 @@ gridSelectionBTN.addEventListener('click', function getSquares() {
     gridSquares = parseInt(prompt("How many squares?","0"),10)
     generateSquares()
 })
-
