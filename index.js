@@ -20,6 +20,7 @@ gridSelectionBTN.addEventListener('click', function getSquares() {
   // gridSquares = parseInt(prompt("How many squares?", "0"), 10)
   gridSquares = 18 * 18
   // TODO HANDLE SITUATION WHERE INPUT IS TO LARGE OR NOT A NUMBER
+  // TODO This is a test for my github connection
   const gridMultiplied = gridSquares
   generateSquares(gridMultiplied)
 
