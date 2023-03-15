@@ -14,7 +14,6 @@ button {
     margin: 0px;
     padding: 0px;
     width: 10px;
-    border: 1px solid black;
 }
 
 #main-container {
@@ -26,6 +25,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     /* flex-wrap: wrap; */
+    background-color: grey;
 }
 
 body {

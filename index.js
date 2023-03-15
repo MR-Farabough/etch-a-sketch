@@ -18,7 +18,7 @@ function generateSquares(gridMultiplied) {
 gridSelectionBTN.addEventListener('click', function getSquares() {
   mainContainer.innerText = ""
   gridSquares = parseInt(prompt("How many squares?", "0"), 10)
-  if ( gridSquares > 1 && gridSquares < 100) {
+  if ( gridSquares > 1 && gridSquares < 101) {
     const width = gridSquares * 10
     const height = gridSquares * 10
     gridSquares = gridSquares * gridSquares
@@ -32,7 +32,7 @@ gridSelectionBTN.addEventListener('click', function getSquares() {
     for (let index = 0; index < divs.length; index++) {
       const divEL = divs[index]
       divEL.addEventListener('mouseover', function log() {
-        divEL.style.backgroundColor = "black"
+        divEL.style.backgroundColor = 'blue'
       })
     }
   } else {
